@@ -1,4 +1,60 @@
-@import url("_profile.css");
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-size: 100%; }
+
+.bio {
+  border: .2em solid #09f;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 3em;
+  background: radial-gradient(white, #f90); }
+
+img {
+  border: .6em ridge blue;
+  padding: 0.5em;
+  margin: .5em;
+  border-radius: 3.7em; }
+
+#name {
+  font-weight: bold; }
+
+figure {
+  display: inline-block; }
+
+.container {
+  text-align: center;
+  font-family: sans-serif;
+  background: radial-gradient(white, #99f);
+  margin: 1em;
+  padding: .5em;
+  border: 1em ridge blue;
+  border-radius: 6em; }
+
+figure figcaption {
+  font-weight: bold; }
+
+.bio-quote span {
+  color: red; }
+
+.interests {
+  text-align: center;
+  list-style: none;
+  line-height: 1.4em; }
+
+.bio-header {
+  font-family: cursive;
+  line-height: 1.4em; }
+
+.bio-name {
+  font-size: 1.6em;
+  line-height: 1.4em; }
+
+/*@import url("_profile.css");*/
 *, *:before, *:after {
   box-sizing: border-box; }
 

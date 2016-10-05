@@ -1,0 +1,98 @@
+@import url("partials/_profile.css");
+
+$blog-border-colour: #09f;
+$blog-line-height: 1.4em;
+$blog-background-colour: #f90;
+$blog-title-font: cursive;
+
+*, *:before, *:after { box-sizing: border-box; }
+img { max-width: 100%; }
+body { font-size: 100%; }
+
+.blog-header {
+  font-family: $blog-title-font;
+  line-height: 1.4em;  
+}
+
+@mixin blog-message($blog-line-height, $blog-border-colour, $blog-background-colour) {
+  line-height: $blog-line-height;
+  border: .2em solid $blog-border-colour;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 3em;
+  background: radial-gradient(white, $blog-background-colour);
+  text-align: left;
+}
+
+.blog-message {
+  @include blog-message($blog-line-height, $blog-border-colour, $blog-background-colour);
+}
+
+.blog-author {
+  text-align: left;
+}
+
+.blog-main {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.blog-footer {
+  border: .5em ridge blue; 
+  border-radius: 2em;
+  margin: 1em;
+}
+
+/* Navigation setup */
+
+nav ul, nav li { 
+  border: .5em ridge blue; 
+  border-radius: 2em;
+}
+
+nav ul { 
+  list-style: none; 
+  padding: 0; 
+  text-align: center;
+  margin: 1em; 
+}
+
+nav li { 
+  display: inline-block; 
+  margin: 5px; 
+  background-color: $blog-background-colour;
+}
+
+nav a { 
+  display: inline-block; 
+  padding: 5px; 
+  text-decoration: none; 
+}
+
+nav { clear: left; }
+
+a:hover, a:focus, a:active { 
+  color: #a3f;
+}
+
+/* Social Media Icons */
+
+#facebook {
+  max-width: 36px;
+  border: none;
+  border-radius: .25em;
+}
+
+#twitter {
+  max-width: 36px;
+  border: none;
+  border-radius: .3em;
+}
+
+/* Responsiveness for various screen size */
+
+@media only screen and (min-width: 48em) {
+  a, li, p { font-size: 1.4em; margin-left: .4em; margin-right: .4em;}
+  h1 { font-size: 2.8em; line-height: 1em;}
+  h2 { font-size: 2.1em; line-height: 1em;}
+}

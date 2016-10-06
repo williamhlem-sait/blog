@@ -1,4 +1,5 @@
 @import '_profile.scss';
+@import '_nav.scss';
 
 $blog-border-colour: #09f;
 $blog-line-height: 1.4em;
@@ -43,47 +44,19 @@ body { font-size: 100%; }
   margin: 1em;
 }
 
-/* Navigation setup */
-
-nav ul, nav li { 
-  border: .5em ridge blue; 
-  border-radius: 2em;
-}
-
-nav ul { 
-  list-style: none; 
-  padding: 0; 
-  text-align: center;
-  margin: 1em; 
-}
-
-nav li { 
-  display: inline-block; 
-  margin: 5px; 
-  background-color: $blog-background-colour;
-}
-
-nav a { 
-  display: inline-block; 
-  padding: 5px; 
-  text-decoration: none; 
-}
-
-nav { clear: left; }
-
 a:hover, a:focus, a:active { 
   color: #a3f;
 }
 
 /* Social Media Icons */
 
-#facebook {
+.facebook {
   max-width: 36px;
   border: none;
   border-radius: .25em;
 }
 
-#twitter {
+.twitter {
   max-width: 36px;
   border: none;
   border-radius: .3em;

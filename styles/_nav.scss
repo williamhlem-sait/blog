@@ -1,0 +1,22 @@
+nav ul { 
+  list-style: none; 
+  padding: 0; 
+  text-align: center;
+  margin: 1em; 
+  border: .5em ridge blue; 
+  border-radius: 2em;
+  li { 
+    display: inline-block; 
+    margin: 5px; 
+    background-color: #fb6;
+    border: .5em ridge blue; 
+    border-radius: 2em;
+    a { 
+    display: inline-block; 
+    padding: 5px; 
+    text-decoration: none; 
+    }
+  }
+}
+
+nav { clear: left; }

@@ -21,10 +21,6 @@ img {
   border-radius: 3.7em;
 }
 
-#name {
-  font-weight: bold;
-}
-
 figure {
   display: inline-block;
 }
@@ -40,7 +36,7 @@ figure {
 }
 
 figure {
-  & figcaption {
+  figcaption {
     font-weight: bold;
   }
 }

@@ -1,0 +1,144 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-size: 100%; }
+
+.bio {
+  border: .2em solid #09f;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 3em;
+  background: radial-gradient(white, #f90); }
+
+img {
+  border: .6em ridge blue;
+  padding: 0.5em;
+  margin: .5em;
+  border-radius: 3.7em; }
+
+#name {
+  font-weight: bold; }
+
+figure {
+  display: inline-block; }
+
+.container {
+  text-align: center;
+  font-family: sans-serif;
+  background: radial-gradient(white, #99f);
+  margin: 1em;
+  padding: .5em;
+  border: 1em ridge blue;
+  border-radius: 6em; }
+
+figure figcaption {
+  font-weight: bold; }
+
+.bio-quote span {
+  color: red; }
+
+.interests {
+  text-align: center;
+  list-style: none;
+  line-height: 1.4em; }
+
+.bio-header {
+  font-family: cursive;
+  line-height: 1.4em; }
+
+.bio-name {
+  font-size: 1.6em;
+  line-height: 1.4em; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-size: 100%; }
+
+.blog-header {
+  font-family: cursive;
+  line-height: 1.4em; }
+
+.blog-message {
+  line-height: 1.4em;
+  border: 0.2em solid #09f;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 3em;
+  background: radial-gradient(white, #f90);
+  text-align: left; }
+
+.blog-author {
+  text-align: left; }
+
+.blog-main {
+  display: flex;
+  flex-wrap: wrap; }
+
+.blog-footer {
+  border: .5em ridge blue;
+  border-radius: 2em;
+  margin: 1em; }
+
+/* Navigation setup */
+nav ul, nav li {
+  border: .5em ridge blue;
+  border-radius: 2em; }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 1em; }
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+  background-color: #f90; }
+
+nav a {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+nav {
+  clear: left; }
+
+a:hover, a:focus, a:active {
+  color: #a3f; }
+
+/* Social Media Icons */
+#facebook {
+  max-width: 36px;
+  border: none;
+  border-radius: .25em; }
+
+#twitter {
+  max-width: 36px;
+  border: none;
+  border-radius: .3em; }
+
+/* Responsiveness for various screen size */
+@media only screen and (min-width: 48em) {
+  a, li, p {
+    font-size: 1.4em;
+    margin-left: .4em;
+    margin-right: .4em; }
+
+  h1 {
+    font-size: 2.8em;
+    line-height: 1em; }
+
+  h2 {
+    font-size: 2.1em;
+    line-height: 1em; } }
+
+/*# sourceMappingURL=post.css.map */
